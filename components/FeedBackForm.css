@@ -1,0 +1,76 @@
+.feedback-form-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 20px; /* Space between title and form */
+  padding: 25px;
+  border: 1px solid #505050;
+  border-radius: 10px;
+  background-color: #fcfcfc;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
+
+.form-title {
+  font-size: 1.5em;
+  color: #333;
+  margin-bottom: 0;
+}
+
+.feedback-form {
+  display: flex;
+  flex-direction: column;
+  gap: 15px; /* Space between form groups and button */
+  width: 90%; /* Adjust width as needed */
+  max-width: 400px; /* Max width for larger screens */
+}
+
+.form-group {
+  display: flex;
+  flex-direction: column;
+}
+
+.form-label {
+  font-size: 1em;
+  color: #555;
+  margin-bottom: 8px;
+  font-weight: bold;
+}
+
+.feedback-textarea {
+  padding: 12px;
+  font-size: 1em;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  resize: vertical; /* Allow vertical resizing by user */
+  min-height: 80px; /* Minimum height for the textarea */
+  outline: none;
+  transition: border-color 0.3s ease, box-shadow 0.3s ease;
+}
+
+.feedback-textarea:focus {
+  border-color: #ffc107; /* Yellow focus color */
+  box-shadow: 0 0 0 3px rgba(255, 193, 7, 0.25);
+}
+
+.submit-button {
+  padding: 12px 25px;
+  font-size: 1.1em;
+  color: #333;
+  background-color: #ffc107; /* Yellow submit button */
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: background-color 0.3s ease, transform 0.1s ease, box-shadow 0.3s ease;
+  font-weight: bold;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+}
+
+.submit-button:hover {
+  background-color: #e0a800; /* Darker yellow on hover */
+}
+
+.submit-button:active {
+  background-color: #c69500;
+  transform: translateY(1px);
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.2);
+}

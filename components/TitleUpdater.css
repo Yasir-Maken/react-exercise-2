@@ -1,0 +1,43 @@
+.title-updater-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 15px; /* Space between elements */
+  padding: 20px;
+  border: 1px solid #a0a0a0;
+  border-radius: 8px;
+  background-color: #f9f9f9;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.input-label {
+  font-size: 1.1em;
+  color: #333;
+  font-weight: bold;
+}
+
+.title-input-field {
+  padding: 10px 15px;
+  font-size: 1em;
+  width: 80%; /* Adjust width as needed */
+  max-width: 300px; /* Max width for larger screens */
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  outline: none; /* Remove default focus outline */
+  transition: border-color 0.3s ease, box-shadow 0.3s ease;
+}
+
+.title-input-field:focus {
+  border-color: #007bff;
+  box-shadow: 0 0 0 3px rgba(0, 123, 255, 0.25);
+}
+
+.current-title-display {
+  font-size: 1em;
+  color: #666;
+  text-align: center;
+}
+
+.current-title-display strong {
+  color: #007bff;
+}

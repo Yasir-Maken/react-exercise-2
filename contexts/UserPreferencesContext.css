@@ -1,0 +1,32 @@
+.user-preferences-provider-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 20px; /* Space between button and content */
+  padding: 20px;
+  border: 1px dashed #888; /* Dotted border to show provider boundary */
+  border-radius: 8px;
+  background-color: #f7f7f7;
+  margin-bottom: 20px; /* Space below the provider section */
+}
+
+.font-size-toggle-button {
+  padding: 10px 20px;
+  font-size: 1em;
+  color: #fff;
+  background-color: #17a2b8; /* Info blue color */
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease, transform 0.1s ease;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+}
+
+.font-size-toggle-button:hover {
+  background-color: #138496;
+}
+
+.font-size-toggle-button:active {
+  background-color: #0f6674;
+  transform: translateY(1px);
+}
